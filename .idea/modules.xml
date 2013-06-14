@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android2do/Android2do.iml" filepath="$PROJECT_DIR$/Android2do/Android2do.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android2doProject.iml" filepath="$PROJECT_DIR$/Android2doProject.iml" />
+    </modules>
+  </component>
+</project>
+

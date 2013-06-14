@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/vamsi/AndroidStudioProjects/Android2doProject/Android2do/src/main/res" >
+            <file
+                path="/home/vamsi/AndroidStudioProjects/Android2doProject/Android2do/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="ic_launcher"
+                path="/home/vamsi/AndroidStudioProjects/Android2doProject/Android2do/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/vamsi/AndroidStudioProjects/Android2doProject/Android2do/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                path="/home/vamsi/AndroidStudioProjects/Android2doProject/Android2do/src/main/res/values-sw600dp/dimens.xml"
+                qualifiers="sw600dp" />
+            <file
+                name="activity_main"
+                path="/home/vamsi/AndroidStudioProjects/Android2doProject/Android2do/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="ic_launcher"
+                path="/home/vamsi/AndroidStudioProjects/Android2doProject/Android2do/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                path="/home/vamsi/AndroidStudioProjects/Android2doProject/Android2do/src/main/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                name="todo"
+                path="/home/vamsi/AndroidStudioProjects/Android2doProject/Android2do/src/main/res/menu/todo.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="ic_launcher"
+                path="/home/vamsi/AndroidStudioProjects/Android2doProject/Android2do/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                path="/home/vamsi/AndroidStudioProjects/Android2doProject/Android2do/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/home/vamsi/AndroidStudioProjects/Android2doProject/Android2do/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="login_progress_signing_in" >Signing in…
+                </string>
+                <string name="prompt_email" >Email
+                </string>
+                <string name="action_sign_in_short" >Sign in
+                </string>
+                <string name="preference_file_key" >2doiosuperprefstorefilez
+                </string>
+                <string name="error_field_required" >This field is required
+                </string>
+                <string name="error_invalid_email" >This email address is invalid
+                </string>
+                <string name="app_name" >Android 2do
+                </string>
+                <string name="action_sign_in_register" ><b>
+Sign in
+                    </b></string>
+                <string name="prompt_password" >Password
+                </string>
+                <string name="error_incorrect_password" >This password is incorrect
+                </string>
+                <string name="action_forgot_password" >Recover lost password
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="error_invalid_password" >This password is too short
+                </string>
+                <string name="loggedin" >loggedin
+                </string>
+            </file>
+            <file
+                path="/home/vamsi/AndroidStudioProjects/Android2doProject/Android2do/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/home/vamsi/AndroidStudioProjects/Android2doProject/Android2do/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style name="LoginFormContainer" >
+                    <item name="android:layout_width">
+            match_parent
+                    </item>
+                    <item name="android:layout_height">
+            wrap_content
+                    </item>
+                    <item name="android:padding">
+            16dp
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                name="login"
+                path="/home/vamsi/AndroidStudioProjects/Android2doProject/Android2do/src/main/res/layout/login.xml"
+                qualifiers=""
+                type="layout" />
+        </source>
+        <source path="/home/vamsi/AndroidStudioProjects/Android2doProject/Android2do/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/vamsi/AndroidStudioProjects/Android2doProject/Android2do/src/debug/res" />
+    </dataSet>
+
+</merger>
